@@ -12,8 +12,7 @@ import java.util.Scanner;
  */
 public class FuncaoImprimirNota {
 
-    // não deu certo 
-    
+   
     /*
     Modifique a função imprimirNota do exemplo anterior para
     retornar uma String. Se aluno aprovado, retorna "Aprovado".
@@ -38,7 +37,7 @@ public class FuncaoImprimirNota {
 
     public static void main(String[] args) {
         String nota = "Reprovado";
-        String c = imprimirNota(imprimirNota(nota));
+        String c = imprimirNota(nota);
         System.out.println("Você foi: " + c);
     }
 
